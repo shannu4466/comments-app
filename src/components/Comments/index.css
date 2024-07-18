@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.container {
+  padding: 60px;
+  height: auto;
+  font-family: 'Roboto';
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.input-data-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  display: flex;
+  justify-content: space-between;
+}
+.comment-heading {
+  font-size: 40px;
+  color: black;
+}
+.info {
+  font-size: 18px;
+}
+
+input {
+  border: 1px solid black;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+textarea {
+  border: 1px solid black;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.add-comment-btn {
+  background-color: #0284c7;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  align-items: center;
+}
+.comment-count {
+  background-color: #0284c7;
+  padding: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
